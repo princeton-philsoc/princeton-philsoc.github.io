@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'PrincMonDS' ;
+  src: url('./PrincMonDS.ttf') format('truetype');
+}
+
+html, body {
+    --princeton-black: #000000;
+    --princeton-orange: #e77500;
+    --link-text-color: #2e7df5;
+    font-family: 'PrincMonDS', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    color: var(--main-text-color);
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+a {
+    text-decoration: none;
+    color: var(--princeton-orange);
+}
+
+a:hover {
+    cursor: pointer;
+    border-bottom: 1px dotted;
+}
+
+li {
+    font-size: 18px;
+    line-height: 1.25;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.container {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10vh;
+    padding-bottom: 20px;
+}
