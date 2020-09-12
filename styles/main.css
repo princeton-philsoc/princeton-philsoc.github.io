@@ -43,3 +43,9 @@ li {
     padding-top: 10vh;
     padding-bottom: 20px;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 10px;
+}
