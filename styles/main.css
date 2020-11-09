@@ -44,6 +44,10 @@ li {
     padding-bottom: 20px;
 }
 
+.abstract {
+    font-size: 14px;
+}
+
 .footer {
     padding-top: 20px;
     font-size: 10px;
